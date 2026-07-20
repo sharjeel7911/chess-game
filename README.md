@@ -118,7 +118,7 @@ g++ *.cpp -o chess && ./chess
 
 chess/
 ├── src/
-│   ├── main.cpp           # Entry point
+│   ├── main.cpp/h           # Entry point
 │   ├── gameflow.cpp/h     # Game loop & input handling
 │   ├── board.cpp/h        # Board state & move logic
 │   ├── move.cpp/h         # Move metadata
