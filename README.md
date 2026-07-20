@@ -115,23 +115,24 @@ g++ *.cpp -o chess && ./chess
 
 ## 🗂️ Project Structure
 ```
-projects/
-└── chess/
-    ├── !project.zip       # Complete Visual Studio project
-    ├── main.cpp           # Entry point
-    ├── gameflow.cpp/h     # Game loop & input handling
-    ├── board.cpp/h        # Board state & move logic
-    ├── move.cpp/h         # Move metadata
-    ├── square.cpp/h       # Board square
-    ├── piece.cpp/h        # Abstract base class
-    ├── pawn.cpp/h
-    ├── rook.cpp/h
-    ├── knight.cpp/h
-    ├── bishop.cpp/h
-    ├── queen.cpp/h
-    ├── king.cpp/h
-    ├── mystack.h          # Custom generic stack (template)
-    └── README.md
+
+chess/
+├── src/
+│   ├── main.cpp           # Entry point
+│   ├── gameflow.cpp/h     # Game loop & input handling
+│   ├── board.cpp/h        # Board state & move logic
+│   ├── move.cpp/h         # Move metadata
+│   ├── square.cpp/h       # Board square
+│   ├── piece.cpp/h        # Abstract base class
+│   ├── pawn.cpp/h
+│   ├── rook.cpp/h
+│   ├── knight.cpp/h
+│   ├── bishop.cpp/h
+│   ├── queen.cpp/h
+│   ├── king.cpp/h
+│   └── mystack.h          # Custom generic stack (template)
+├── LICENSE
+└── README.md
 ```
 
 ---
